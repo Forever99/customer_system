@@ -1,0 +1,7 @@
+工具包和配置文件说明：
+
+1、数据库驱动jar包--mysql-connector-java-5.0.8-bin.jar【连接数据库等】
+2、c3p0-0.9.1.2.jar包和一个c3p0-config.xml配置文件【从连接池中获取连接】
+3、一个commons-beanutils-1.8.3.jar【简化数据库操作】
+4、一个commons-beanutils-1.8.3.jar【封装bean】
+5、一个commons-logging-1.1.1.jar【日志文件】

@@ -1,0 +1,25 @@
+--创建数据库customer_system
+create database customer_system;
+
+--使用数据库customer_system
+use customer_system;
+
+--表customers
+create table customers(
+	
+	id varchar(100) primary key, 
+	name varchar(30), 
+	gender varchar(10), 
+	birthday date, 
+	email varchar(20), 
+	cellphone varchar(20), 
+	preference varchar(100), 
+	type varchar(20), 
+	description varchar(255) 
+);
+
+--创建新的数据库用户'zk',密码'1234'
+create user zk identified by '1234';
+
+--授权，把customer_system的权利售给用户'zk'
+grant all on customer_system.* to zk;
